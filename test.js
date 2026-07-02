@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 
 /**
- * Time Aware Skill 测试
+ * Time Aware 测试
  */
 
-const TimeAwareSkill = require('./index.js');
+const TimeAware = require('./index.js');
 
-console.log('=== Time Aware Skill 测试 ===\n');
+console.log('=== Time Aware 测试 ===\n');
 
-const skill = new TimeAwareSkill();
+const skill = new TimeAware();
 
 // 测试 1: 平台检测
 console.log('1. 平台检测');

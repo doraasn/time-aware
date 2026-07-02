@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 
 /**
- * Time Aware Skill
+ * Time Aware
  * 获取当前时间并分析时间相关问题
  */
 
 const { execSync } = require('child_process');
 const os = require('os');
 
-class TimeAwareSkill {
+class TimeAware {
   constructor() {
     this.platform = this.detectPlatform();
   }
@@ -208,14 +208,14 @@ class TimeAwareSkill {
 }
 
 // 导出模块
-module.exports = TimeAwareSkill;
+module.exports = TimeAware;
 
 // 命令行运行时执行
 if (require.main === module) {
-  const skill = new TimeAwareSkill();
-  
+  const skill = new TimeAware();
+
   // 获取当前时间
-  console.log('=== Time Aware Skill ===');
+  console.log('=== Time Aware ===');
   console.log('平台:', skill.platform);
   console.log('当前时间:', skill.getCurrentTime());
   

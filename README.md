@@ -1,4 +1,4 @@
-# Time Aware Skill
+# Time Aware
 
 一个为 AI 助手设计的时间感知技能，自动检测用户的时间性问题并获取准确的当前时间。
 
@@ -12,8 +12,8 @@
 ## 安装
 
 ```bash
-git clone https://github.com/doraasn/time-aware-skill.git
-cd time-aware-skill
+git clone https://github.com/doraasn/time-aware.git
+cd time-aware
 npm install
 ```
 
