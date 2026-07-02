@@ -1,0 +1,18 @@
+{
+  "name": "time-aware-skill",
+  "version": "1.0.0",
+  "description": "Time-aware skill for AI assistants - detects time-related queries and获取准确时间",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "ai",
+    "skill",
+    "time",
+    "aware",
+    "assistant"
+  ],
+  "author": "doraasn",
+  "license": "MIT"
+}
